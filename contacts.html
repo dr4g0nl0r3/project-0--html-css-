@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg" href="img/code.svg">
+    <title>Personal Folio</title>
+</head>
+<body>
+    
+    <div class="page">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="header-brand">
+                        Frontend Developer
+                    </div>
+                    <div class="header-logo">
+                        <img src="img/code.svg" alt="logo">
+                    </div>
+                    <nav class="header-nav">
+                        <a class="header-nav-link" href="index.html">Home</a>
+                        <a class="header-nav-link" href="about.html">About me</a>
+                        <a class="header-nav-link active" href="contacts.html">Contacts</a>
+                    </nav>
+                </div>
+            </div> <!-- /.container -->
+        </header>
+        
+        <!-- Main -->
+        <div class="container">
+            <main class="content">
+                    <div class="content-header">
+                        <h1 class="tittle">Write me a <span>message</span></h1>
+                        <div class="text">
+                            <p>Many desktop publishing packages and web page editors now use Lorem.
+                            </p>
+                        </div>
+                    </div>
+                    <form class="form" action="/" method="post">
+                        <div class="form-group">
+                            <input class="input" placeholder="Name" type="text" name="name">
+                        </div>
+                        <div class="form-group">
+                            <input class="input" placeholder="Email" type="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <input class="input" placeholder="Phone" type="tel" name="tel">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="text" class="textarea" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-full" type="submit">Send Message</button>
+                        </div>
+                    </form>
+            </main>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="contacts">
+                    <a class="contacts-link" href="mailto:info@Kirill@gmail.com">
+                        <img class="contacts-icon" src="img/mail.svg" alt="mail">info@Kirill@gmail.com
+                    </a>
+                    <a class="contacts-link" href="tel:+37125521551">
+                        <img class="contacts-icon" src="img/tel.svg" alt="phone">+371 255-21-551
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <img class="author" src="img/me.png" alt="avatar">
+
+    </div> <!-- /.page -->
+
+</body>
+</html>
